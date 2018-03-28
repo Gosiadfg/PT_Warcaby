@@ -27,21 +27,21 @@ int dilation_size = 3;
 int erosion_elem = 1;
 int erosion_size = 3;
 
-void Dilation(int, void*)
+void Dilation()
 {
-	int dilation_type;
-	if (dilation_elem == 0) { dilation_type = MORPH_RECT; }
-	else if (dilation_elem == 1) { dilation_type = MORPH_CROSS; }
-	else if (dilation_elem == 2) { dilation_type = MORPH_ELLIPSE; }
+	int typ_dylacji;
+	if (dilation_elem == 0) { typ_dylacji = MORPH_RECT; }
+	else if (dilation_elem == 1) { typ_dylacji = MORPH_CROSS; }
+	else if (dilation_elem == 2) { typ_dylacji = MORPH_ELLIPSE; }
 
-	Mat element = getStructuringElement(dilation_type,
+	Mat element = getStructuringElement(typ_dylacji,
 		Size(2 * dilation_size + 1, 2 * dilation_size + 1),
 		Point(dilation_size, dilation_size));
 	/// Apply the dilation operation
 	dilate(mask1, dilation_dst, element);
 	imshow("Dylacja", dilation_dst);
 }
-Mat Erosion(int, void*, Mat source)
+Mat Erosion(Mat source)
 {
 	Mat erosion_dst1;
 	int erosion_type;
@@ -80,12 +80,12 @@ int main(int argc, char** argv)
 
 	imshow("hsv", srcHSV);
 	imshow("maska 1", mask1);
-	imshow("Erozja Maski 1", Erosion(0,0,mask1));
+	imshow("Erozja Maski 1", Erosion(mask1));
 
 	while (true)
 	{
 		int c;
-		erosion_dst = Erosion(0, 0, dst);
+		erosion_dst = Erosion(dst);
 		imshow("erozja", erosion_dst);
 		c = waitKey(20);
 		if ((char)c == 27)
