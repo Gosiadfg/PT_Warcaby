@@ -268,522 +268,587 @@ namespace Projekt2 {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(36, 55);
+			this->pictureBox1->Location = System::Drawing::Point(48, 68);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(50, 50);
+			this->pictureBox1->Size = System::Drawing::Size(67, 62);
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
 			// pictureBox2
 			// 
-			this->pictureBox2->Location = System::Drawing::Point(86, 55);
+			this->pictureBox2->Location = System::Drawing::Point(115, 68);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(50, 50);
+			this->pictureBox2->Size = System::Drawing::Size(67, 62);
 			this->pictureBox2->TabIndex = 1;
 			this->pictureBox2->TabStop = false;
 			// 
 			// pictureBox3
 			// 
-			this->pictureBox3->Location = System::Drawing::Point(136, 55);
+			this->pictureBox3->Location = System::Drawing::Point(181, 68);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(50, 50);
+			this->pictureBox3->Size = System::Drawing::Size(67, 62);
 			this->pictureBox3->TabIndex = 2;
 			this->pictureBox3->TabStop = false;
 			// 
 			// pictureBox4
 			// 
-			this->pictureBox4->Location = System::Drawing::Point(186, 55);
+			this->pictureBox4->Location = System::Drawing::Point(248, 68);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(50, 50);
+			this->pictureBox4->Size = System::Drawing::Size(67, 62);
 			this->pictureBox4->TabIndex = 3;
 			this->pictureBox4->TabStop = false;
 			// 
 			// pictureBox5
 			// 
-			this->pictureBox5->Location = System::Drawing::Point(236, 55);
+			this->pictureBox5->Location = System::Drawing::Point(315, 68);
+			this->pictureBox5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(50, 50);
+			this->pictureBox5->Size = System::Drawing::Size(67, 62);
 			this->pictureBox5->TabIndex = 4;
 			this->pictureBox5->TabStop = false;
 			// 
 			// pictureBox6
 			// 
-			this->pictureBox6->Location = System::Drawing::Point(286, 55);
+			this->pictureBox6->Location = System::Drawing::Point(381, 68);
+			this->pictureBox6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox6->Name = L"pictureBox6";
-			this->pictureBox6->Size = System::Drawing::Size(50, 50);
+			this->pictureBox6->Size = System::Drawing::Size(67, 62);
 			this->pictureBox6->TabIndex = 5;
 			this->pictureBox6->TabStop = false;
 			// 
 			// pictureBox7
 			// 
-			this->pictureBox7->Location = System::Drawing::Point(336, 55);
+			this->pictureBox7->Location = System::Drawing::Point(448, 68);
+			this->pictureBox7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox7->Name = L"pictureBox7";
-			this->pictureBox7->Size = System::Drawing::Size(50, 50);
+			this->pictureBox7->Size = System::Drawing::Size(67, 62);
 			this->pictureBox7->TabIndex = 6;
 			this->pictureBox7->TabStop = false;
 			// 
 			// pictureBox8
 			// 
-			this->pictureBox8->Location = System::Drawing::Point(386, 55);
+			this->pictureBox8->Location = System::Drawing::Point(515, 68);
+			this->pictureBox8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox8->Name = L"pictureBox8";
-			this->pictureBox8->Size = System::Drawing::Size(50, 50);
+			this->pictureBox8->Size = System::Drawing::Size(67, 62);
 			this->pictureBox8->TabIndex = 7;
 			this->pictureBox8->TabStop = false;
 			// 
 			// pictureBox9
 			// 
-			this->pictureBox9->Location = System::Drawing::Point(36, 105);
+			this->pictureBox9->Location = System::Drawing::Point(48, 129);
+			this->pictureBox9->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox9->Name = L"pictureBox9";
-			this->pictureBox9->Size = System::Drawing::Size(50, 50);
+			this->pictureBox9->Size = System::Drawing::Size(67, 62);
 			this->pictureBox9->TabIndex = 8;
 			this->pictureBox9->TabStop = false;
 			// 
 			// pictureBox10
 			// 
-			this->pictureBox10->Location = System::Drawing::Point(86, 105);
+			this->pictureBox10->Location = System::Drawing::Point(115, 129);
+			this->pictureBox10->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox10->Name = L"pictureBox10";
-			this->pictureBox10->Size = System::Drawing::Size(50, 50);
+			this->pictureBox10->Size = System::Drawing::Size(67, 62);
 			this->pictureBox10->TabIndex = 9;
 			this->pictureBox10->TabStop = false;
 			// 
 			// pictureBox11
 			// 
-			this->pictureBox11->Location = System::Drawing::Point(136, 105);
+			this->pictureBox11->Location = System::Drawing::Point(181, 129);
+			this->pictureBox11->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox11->Name = L"pictureBox11";
-			this->pictureBox11->Size = System::Drawing::Size(50, 50);
+			this->pictureBox11->Size = System::Drawing::Size(67, 62);
 			this->pictureBox11->TabIndex = 10;
 			this->pictureBox11->TabStop = false;
 			// 
 			// pictureBox12
 			// 
-			this->pictureBox12->Location = System::Drawing::Point(186, 105);
+			this->pictureBox12->Location = System::Drawing::Point(248, 129);
+			this->pictureBox12->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox12->Name = L"pictureBox12";
-			this->pictureBox12->Size = System::Drawing::Size(50, 50);
+			this->pictureBox12->Size = System::Drawing::Size(67, 62);
 			this->pictureBox12->TabIndex = 11;
 			this->pictureBox12->TabStop = false;
 			// 
 			// pictureBox13
 			// 
-			this->pictureBox13->Location = System::Drawing::Point(236, 105);
+			this->pictureBox13->Location = System::Drawing::Point(315, 129);
+			this->pictureBox13->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox13->Name = L"pictureBox13";
-			this->pictureBox13->Size = System::Drawing::Size(50, 50);
+			this->pictureBox13->Size = System::Drawing::Size(67, 62);
 			this->pictureBox13->TabIndex = 12;
 			this->pictureBox13->TabStop = false;
 			// 
 			// pictureBox14
 			// 
-			this->pictureBox14->Location = System::Drawing::Point(286, 105);
+			this->pictureBox14->Location = System::Drawing::Point(381, 129);
+			this->pictureBox14->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox14->Name = L"pictureBox14";
-			this->pictureBox14->Size = System::Drawing::Size(50, 50);
+			this->pictureBox14->Size = System::Drawing::Size(67, 62);
 			this->pictureBox14->TabIndex = 13;
 			this->pictureBox14->TabStop = false;
 			// 
 			// pictureBox15
 			// 
-			this->pictureBox15->Location = System::Drawing::Point(336, 105);
+			this->pictureBox15->Location = System::Drawing::Point(448, 129);
+			this->pictureBox15->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox15->Name = L"pictureBox15";
-			this->pictureBox15->Size = System::Drawing::Size(50, 50);
+			this->pictureBox15->Size = System::Drawing::Size(67, 62);
 			this->pictureBox15->TabIndex = 14;
 			this->pictureBox15->TabStop = false;
 			// 
 			// pictureBox16
 			// 
-			this->pictureBox16->Location = System::Drawing::Point(386, 105);
+			this->pictureBox16->Location = System::Drawing::Point(515, 129);
+			this->pictureBox16->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox16->Name = L"pictureBox16";
-			this->pictureBox16->Size = System::Drawing::Size(50, 50);
+			this->pictureBox16->Size = System::Drawing::Size(67, 62);
 			this->pictureBox16->TabIndex = 15;
 			this->pictureBox16->TabStop = false;
 			// 
 			// pictureBox17
 			// 
-			this->pictureBox17->Location = System::Drawing::Point(36, 155);
+			this->pictureBox17->Location = System::Drawing::Point(48, 191);
+			this->pictureBox17->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox17->Name = L"pictureBox17";
-			this->pictureBox17->Size = System::Drawing::Size(50, 50);
+			this->pictureBox17->Size = System::Drawing::Size(67, 62);
 			this->pictureBox17->TabIndex = 16;
 			this->pictureBox17->TabStop = false;
 			// 
 			// pictureBox18
 			// 
-			this->pictureBox18->Location = System::Drawing::Point(86, 155);
+			this->pictureBox18->Location = System::Drawing::Point(115, 191);
+			this->pictureBox18->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox18->Name = L"pictureBox18";
-			this->pictureBox18->Size = System::Drawing::Size(50, 50);
+			this->pictureBox18->Size = System::Drawing::Size(67, 62);
 			this->pictureBox18->TabIndex = 17;
 			this->pictureBox18->TabStop = false;
 			// 
 			// pictureBox19
 			// 
-			this->pictureBox19->Location = System::Drawing::Point(136, 155);
+			this->pictureBox19->Location = System::Drawing::Point(181, 191);
+			this->pictureBox19->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox19->Name = L"pictureBox19";
-			this->pictureBox19->Size = System::Drawing::Size(50, 50);
+			this->pictureBox19->Size = System::Drawing::Size(67, 62);
 			this->pictureBox19->TabIndex = 18;
 			this->pictureBox19->TabStop = false;
 			// 
 			// pictureBox20
 			// 
-			this->pictureBox20->Location = System::Drawing::Point(186, 155);
+			this->pictureBox20->Location = System::Drawing::Point(248, 191);
+			this->pictureBox20->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox20->Name = L"pictureBox20";
-			this->pictureBox20->Size = System::Drawing::Size(50, 50);
+			this->pictureBox20->Size = System::Drawing::Size(67, 62);
 			this->pictureBox20->TabIndex = 19;
 			this->pictureBox20->TabStop = false;
 			// 
 			// pictureBox21
 			// 
-			this->pictureBox21->Location = System::Drawing::Point(236, 155);
+			this->pictureBox21->Location = System::Drawing::Point(315, 191);
+			this->pictureBox21->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox21->Name = L"pictureBox21";
-			this->pictureBox21->Size = System::Drawing::Size(50, 50);
+			this->pictureBox21->Size = System::Drawing::Size(67, 62);
 			this->pictureBox21->TabIndex = 20;
 			this->pictureBox21->TabStop = false;
 			// 
 			// pictureBox22
 			// 
-			this->pictureBox22->Location = System::Drawing::Point(286, 155);
+			this->pictureBox22->Location = System::Drawing::Point(381, 191);
+			this->pictureBox22->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox22->Name = L"pictureBox22";
-			this->pictureBox22->Size = System::Drawing::Size(50, 50);
+			this->pictureBox22->Size = System::Drawing::Size(67, 62);
 			this->pictureBox22->TabIndex = 21;
 			this->pictureBox22->TabStop = false;
 			// 
 			// pictureBox23
 			// 
-			this->pictureBox23->Location = System::Drawing::Point(336, 155);
+			this->pictureBox23->Location = System::Drawing::Point(448, 191);
+			this->pictureBox23->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox23->Name = L"pictureBox23";
-			this->pictureBox23->Size = System::Drawing::Size(50, 50);
+			this->pictureBox23->Size = System::Drawing::Size(67, 62);
 			this->pictureBox23->TabIndex = 22;
 			this->pictureBox23->TabStop = false;
 			// 
 			// pictureBox24
 			// 
-			this->pictureBox24->Location = System::Drawing::Point(386, 155);
+			this->pictureBox24->Location = System::Drawing::Point(515, 191);
+			this->pictureBox24->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox24->Name = L"pictureBox24";
-			this->pictureBox24->Size = System::Drawing::Size(50, 50);
+			this->pictureBox24->Size = System::Drawing::Size(67, 62);
 			this->pictureBox24->TabIndex = 23;
 			this->pictureBox24->TabStop = false;
 			// 
 			// pictureBox25
 			// 
-			this->pictureBox25->Location = System::Drawing::Point(36, 205);
+			this->pictureBox25->Location = System::Drawing::Point(48, 252);
+			this->pictureBox25->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox25->Name = L"pictureBox25";
-			this->pictureBox25->Size = System::Drawing::Size(50, 50);
+			this->pictureBox25->Size = System::Drawing::Size(67, 62);
 			this->pictureBox25->TabIndex = 24;
 			this->pictureBox25->TabStop = false;
 			// 
 			// pictureBox26
 			// 
-			this->pictureBox26->Location = System::Drawing::Point(86, 205);
+			this->pictureBox26->Location = System::Drawing::Point(115, 252);
+			this->pictureBox26->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox26->Name = L"pictureBox26";
-			this->pictureBox26->Size = System::Drawing::Size(50, 50);
+			this->pictureBox26->Size = System::Drawing::Size(67, 62);
 			this->pictureBox26->TabIndex = 25;
 			this->pictureBox26->TabStop = false;
 			// 
 			// pictureBox27
 			// 
-			this->pictureBox27->Location = System::Drawing::Point(136, 205);
+			this->pictureBox27->Location = System::Drawing::Point(181, 252);
+			this->pictureBox27->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox27->Name = L"pictureBox27";
-			this->pictureBox27->Size = System::Drawing::Size(50, 50);
+			this->pictureBox27->Size = System::Drawing::Size(67, 62);
 			this->pictureBox27->TabIndex = 26;
 			this->pictureBox27->TabStop = false;
 			// 
 			// pictureBox28
 			// 
-			this->pictureBox28->Location = System::Drawing::Point(186, 205);
+			this->pictureBox28->Location = System::Drawing::Point(248, 252);
+			this->pictureBox28->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox28->Name = L"pictureBox28";
-			this->pictureBox28->Size = System::Drawing::Size(50, 50);
+			this->pictureBox28->Size = System::Drawing::Size(67, 62);
 			this->pictureBox28->TabIndex = 27;
 			this->pictureBox28->TabStop = false;
 			// 
 			// pictureBox29
 			// 
-			this->pictureBox29->Location = System::Drawing::Point(236, 205);
+			this->pictureBox29->Location = System::Drawing::Point(315, 252);
+			this->pictureBox29->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox29->Name = L"pictureBox29";
-			this->pictureBox29->Size = System::Drawing::Size(50, 50);
+			this->pictureBox29->Size = System::Drawing::Size(67, 62);
 			this->pictureBox29->TabIndex = 28;
 			this->pictureBox29->TabStop = false;
 			// 
 			// pictureBox30
 			// 
-			this->pictureBox30->Location = System::Drawing::Point(286, 205);
+			this->pictureBox30->Location = System::Drawing::Point(381, 252);
+			this->pictureBox30->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox30->Name = L"pictureBox30";
-			this->pictureBox30->Size = System::Drawing::Size(50, 50);
+			this->pictureBox30->Size = System::Drawing::Size(67, 62);
 			this->pictureBox30->TabIndex = 29;
 			this->pictureBox30->TabStop = false;
 			// 
 			// pictureBox31
 			// 
-			this->pictureBox31->Location = System::Drawing::Point(336, 205);
+			this->pictureBox31->Location = System::Drawing::Point(448, 252);
+			this->pictureBox31->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox31->Name = L"pictureBox31";
-			this->pictureBox31->Size = System::Drawing::Size(50, 50);
+			this->pictureBox31->Size = System::Drawing::Size(67, 62);
 			this->pictureBox31->TabIndex = 30;
 			this->pictureBox31->TabStop = false;
 			// 
 			// pictureBox32
 			// 
-			this->pictureBox32->Location = System::Drawing::Point(386, 205);
+			this->pictureBox32->Location = System::Drawing::Point(515, 252);
+			this->pictureBox32->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox32->Name = L"pictureBox32";
-			this->pictureBox32->Size = System::Drawing::Size(50, 50);
+			this->pictureBox32->Size = System::Drawing::Size(67, 62);
 			this->pictureBox32->TabIndex = 31;
 			this->pictureBox32->TabStop = false;
 			// 
 			// pictureBox33
 			// 
-			this->pictureBox33->Location = System::Drawing::Point(36, 255);
+			this->pictureBox33->Location = System::Drawing::Point(48, 314);
+			this->pictureBox33->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox33->Name = L"pictureBox33";
-			this->pictureBox33->Size = System::Drawing::Size(50, 50);
+			this->pictureBox33->Size = System::Drawing::Size(67, 62);
 			this->pictureBox33->TabIndex = 32;
 			this->pictureBox33->TabStop = false;
 			// 
 			// pictureBox34
 			// 
-			this->pictureBox34->Location = System::Drawing::Point(86, 255);
+			this->pictureBox34->Location = System::Drawing::Point(115, 314);
+			this->pictureBox34->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox34->Name = L"pictureBox34";
-			this->pictureBox34->Size = System::Drawing::Size(50, 50);
+			this->pictureBox34->Size = System::Drawing::Size(67, 62);
 			this->pictureBox34->TabIndex = 33;
 			this->pictureBox34->TabStop = false;
 			// 
 			// pictureBox35
 			// 
-			this->pictureBox35->Location = System::Drawing::Point(136, 255);
+			this->pictureBox35->Location = System::Drawing::Point(181, 314);
+			this->pictureBox35->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox35->Name = L"pictureBox35";
-			this->pictureBox35->Size = System::Drawing::Size(50, 50);
+			this->pictureBox35->Size = System::Drawing::Size(67, 62);
 			this->pictureBox35->TabIndex = 34;
 			this->pictureBox35->TabStop = false;
 			// 
 			// pictureBox36
 			// 
-			this->pictureBox36->Location = System::Drawing::Point(186, 255);
+			this->pictureBox36->Location = System::Drawing::Point(248, 314);
+			this->pictureBox36->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox36->Name = L"pictureBox36";
-			this->pictureBox36->Size = System::Drawing::Size(50, 50);
+			this->pictureBox36->Size = System::Drawing::Size(67, 62);
 			this->pictureBox36->TabIndex = 35;
 			this->pictureBox36->TabStop = false;
 			// 
 			// pictureBox37
 			// 
-			this->pictureBox37->Location = System::Drawing::Point(236, 255);
+			this->pictureBox37->Location = System::Drawing::Point(315, 314);
+			this->pictureBox37->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox37->Name = L"pictureBox37";
-			this->pictureBox37->Size = System::Drawing::Size(50, 50);
+			this->pictureBox37->Size = System::Drawing::Size(67, 62);
 			this->pictureBox37->TabIndex = 36;
 			this->pictureBox37->TabStop = false;
 			// 
 			// pictureBox38
 			// 
-			this->pictureBox38->Location = System::Drawing::Point(286, 255);
+			this->pictureBox38->Location = System::Drawing::Point(381, 314);
+			this->pictureBox38->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox38->Name = L"pictureBox38";
-			this->pictureBox38->Size = System::Drawing::Size(50, 50);
+			this->pictureBox38->Size = System::Drawing::Size(67, 62);
 			this->pictureBox38->TabIndex = 37;
 			this->pictureBox38->TabStop = false;
 			// 
 			// pictureBox39
 			// 
-			this->pictureBox39->Location = System::Drawing::Point(336, 255);
+			this->pictureBox39->Location = System::Drawing::Point(448, 314);
+			this->pictureBox39->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox39->Name = L"pictureBox39";
-			this->pictureBox39->Size = System::Drawing::Size(50, 50);
+			this->pictureBox39->Size = System::Drawing::Size(67, 62);
 			this->pictureBox39->TabIndex = 38;
 			this->pictureBox39->TabStop = false;
 			// 
 			// pictureBox40
 			// 
-			this->pictureBox40->Location = System::Drawing::Point(386, 255);
+			this->pictureBox40->Location = System::Drawing::Point(515, 314);
+			this->pictureBox40->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox40->Name = L"pictureBox40";
-			this->pictureBox40->Size = System::Drawing::Size(50, 50);
+			this->pictureBox40->Size = System::Drawing::Size(67, 62);
 			this->pictureBox40->TabIndex = 39;
 			this->pictureBox40->TabStop = false;
 			// 
 			// pictureBox41
 			// 
-			this->pictureBox41->Location = System::Drawing::Point(36, 305);
+			this->pictureBox41->Location = System::Drawing::Point(48, 375);
+			this->pictureBox41->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox41->Name = L"pictureBox41";
-			this->pictureBox41->Size = System::Drawing::Size(50, 50);
+			this->pictureBox41->Size = System::Drawing::Size(67, 62);
 			this->pictureBox41->TabIndex = 40;
 			this->pictureBox41->TabStop = false;
 			// 
 			// pictureBox42
 			// 
-			this->pictureBox42->Location = System::Drawing::Point(86, 305);
+			this->pictureBox42->Location = System::Drawing::Point(115, 375);
+			this->pictureBox42->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox42->Name = L"pictureBox42";
-			this->pictureBox42->Size = System::Drawing::Size(50, 50);
+			this->pictureBox42->Size = System::Drawing::Size(67, 62);
 			this->pictureBox42->TabIndex = 41;
 			this->pictureBox42->TabStop = false;
 			// 
 			// pictureBox43
 			// 
-			this->pictureBox43->Location = System::Drawing::Point(136, 305);
+			this->pictureBox43->Location = System::Drawing::Point(181, 375);
+			this->pictureBox43->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox43->Name = L"pictureBox43";
-			this->pictureBox43->Size = System::Drawing::Size(50, 50);
+			this->pictureBox43->Size = System::Drawing::Size(67, 62);
 			this->pictureBox43->TabIndex = 42;
 			this->pictureBox43->TabStop = false;
 			// 
 			// pictureBox44
 			// 
-			this->pictureBox44->Location = System::Drawing::Point(186, 305);
+			this->pictureBox44->Location = System::Drawing::Point(248, 375);
+			this->pictureBox44->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox44->Name = L"pictureBox44";
-			this->pictureBox44->Size = System::Drawing::Size(50, 50);
+			this->pictureBox44->Size = System::Drawing::Size(67, 62);
 			this->pictureBox44->TabIndex = 43;
 			this->pictureBox44->TabStop = false;
 			// 
 			// pictureBox45
 			// 
-			this->pictureBox45->Location = System::Drawing::Point(236, 305);
+			this->pictureBox45->Location = System::Drawing::Point(315, 375);
+			this->pictureBox45->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox45->Name = L"pictureBox45";
-			this->pictureBox45->Size = System::Drawing::Size(50, 50);
+			this->pictureBox45->Size = System::Drawing::Size(67, 62);
 			this->pictureBox45->TabIndex = 44;
 			this->pictureBox45->TabStop = false;
 			// 
 			// pictureBox46
 			// 
-			this->pictureBox46->Location = System::Drawing::Point(286, 305);
+			this->pictureBox46->Location = System::Drawing::Point(381, 375);
+			this->pictureBox46->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox46->Name = L"pictureBox46";
-			this->pictureBox46->Size = System::Drawing::Size(50, 50);
+			this->pictureBox46->Size = System::Drawing::Size(67, 62);
 			this->pictureBox46->TabIndex = 45;
 			this->pictureBox46->TabStop = false;
 			// 
 			// pictureBox47
 			// 
-			this->pictureBox47->Location = System::Drawing::Point(336, 305);
+			this->pictureBox47->Location = System::Drawing::Point(448, 375);
+			this->pictureBox47->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox47->Name = L"pictureBox47";
-			this->pictureBox47->Size = System::Drawing::Size(50, 50);
+			this->pictureBox47->Size = System::Drawing::Size(67, 62);
 			this->pictureBox47->TabIndex = 46;
 			this->pictureBox47->TabStop = false;
 			// 
 			// pictureBox48
 			// 
-			this->pictureBox48->Location = System::Drawing::Point(386, 305);
+			this->pictureBox48->Location = System::Drawing::Point(515, 375);
+			this->pictureBox48->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox48->Name = L"pictureBox48";
-			this->pictureBox48->Size = System::Drawing::Size(50, 50);
+			this->pictureBox48->Size = System::Drawing::Size(67, 62);
 			this->pictureBox48->TabIndex = 47;
 			this->pictureBox48->TabStop = false;
 			// 
 			// pictureBox49
 			// 
-			this->pictureBox49->Location = System::Drawing::Point(36, 355);
+			this->pictureBox49->Location = System::Drawing::Point(48, 437);
+			this->pictureBox49->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox49->Name = L"pictureBox49";
-			this->pictureBox49->Size = System::Drawing::Size(50, 50);
+			this->pictureBox49->Size = System::Drawing::Size(67, 62);
 			this->pictureBox49->TabIndex = 48;
 			this->pictureBox49->TabStop = false;
 			// 
 			// pictureBox50
 			// 
-			this->pictureBox50->Location = System::Drawing::Point(86, 355);
+			this->pictureBox50->Location = System::Drawing::Point(115, 437);
+			this->pictureBox50->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox50->Name = L"pictureBox50";
-			this->pictureBox50->Size = System::Drawing::Size(50, 50);
+			this->pictureBox50->Size = System::Drawing::Size(67, 62);
 			this->pictureBox50->TabIndex = 49;
 			this->pictureBox50->TabStop = false;
 			// 
 			// pictureBox51
 			// 
-			this->pictureBox51->Location = System::Drawing::Point(136, 355);
+			this->pictureBox51->Location = System::Drawing::Point(181, 437);
+			this->pictureBox51->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox51->Name = L"pictureBox51";
-			this->pictureBox51->Size = System::Drawing::Size(50, 50);
+			this->pictureBox51->Size = System::Drawing::Size(67, 62);
 			this->pictureBox51->TabIndex = 50;
 			this->pictureBox51->TabStop = false;
 			// 
 			// pictureBox52
 			// 
-			this->pictureBox52->Location = System::Drawing::Point(186, 355);
+			this->pictureBox52->Location = System::Drawing::Point(248, 437);
+			this->pictureBox52->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox52->Name = L"pictureBox52";
-			this->pictureBox52->Size = System::Drawing::Size(50, 50);
+			this->pictureBox52->Size = System::Drawing::Size(67, 62);
 			this->pictureBox52->TabIndex = 51;
 			this->pictureBox52->TabStop = false;
 			// 
 			// pictureBox53
 			// 
-			this->pictureBox53->Location = System::Drawing::Point(236, 355);
+			this->pictureBox53->Location = System::Drawing::Point(315, 437);
+			this->pictureBox53->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox53->Name = L"pictureBox53";
-			this->pictureBox53->Size = System::Drawing::Size(50, 50);
+			this->pictureBox53->Size = System::Drawing::Size(67, 62);
 			this->pictureBox53->TabIndex = 52;
 			this->pictureBox53->TabStop = false;
 			// 
 			// pictureBox54
 			// 
-			this->pictureBox54->Location = System::Drawing::Point(286, 355);
+			this->pictureBox54->Location = System::Drawing::Point(381, 437);
+			this->pictureBox54->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox54->Name = L"pictureBox54";
-			this->pictureBox54->Size = System::Drawing::Size(50, 50);
+			this->pictureBox54->Size = System::Drawing::Size(67, 62);
 			this->pictureBox54->TabIndex = 53;
 			this->pictureBox54->TabStop = false;
 			// 
 			// pictureBox55
 			// 
-			this->pictureBox55->Location = System::Drawing::Point(336, 355);
+			this->pictureBox55->Location = System::Drawing::Point(448, 437);
+			this->pictureBox55->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox55->Name = L"pictureBox55";
-			this->pictureBox55->Size = System::Drawing::Size(50, 50);
+			this->pictureBox55->Size = System::Drawing::Size(67, 62);
 			this->pictureBox55->TabIndex = 54;
 			this->pictureBox55->TabStop = false;
 			// 
 			// pictureBox56
 			// 
-			this->pictureBox56->Location = System::Drawing::Point(386, 355);
+			this->pictureBox56->Location = System::Drawing::Point(515, 437);
+			this->pictureBox56->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox56->Name = L"pictureBox56";
-			this->pictureBox56->Size = System::Drawing::Size(50, 50);
+			this->pictureBox56->Size = System::Drawing::Size(67, 62);
 			this->pictureBox56->TabIndex = 55;
 			this->pictureBox56->TabStop = false;
 			// 
 			// pictureBox57
 			// 
-			this->pictureBox57->Location = System::Drawing::Point(36, 405);
+			this->pictureBox57->Location = System::Drawing::Point(48, 498);
+			this->pictureBox57->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox57->Name = L"pictureBox57";
-			this->pictureBox57->Size = System::Drawing::Size(50, 50);
+			this->pictureBox57->Size = System::Drawing::Size(67, 62);
 			this->pictureBox57->TabIndex = 56;
 			this->pictureBox57->TabStop = false;
 			// 
 			// pictureBox58
 			// 
-			this->pictureBox58->Location = System::Drawing::Point(86, 405);
+			this->pictureBox58->Location = System::Drawing::Point(115, 498);
+			this->pictureBox58->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox58->Name = L"pictureBox58";
-			this->pictureBox58->Size = System::Drawing::Size(50, 50);
+			this->pictureBox58->Size = System::Drawing::Size(67, 62);
 			this->pictureBox58->TabIndex = 57;
 			this->pictureBox58->TabStop = false;
 			// 
 			// pictureBox59
 			// 
-			this->pictureBox59->Location = System::Drawing::Point(136, 405);
+			this->pictureBox59->Location = System::Drawing::Point(181, 498);
+			this->pictureBox59->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox59->Name = L"pictureBox59";
-			this->pictureBox59->Size = System::Drawing::Size(50, 50);
+			this->pictureBox59->Size = System::Drawing::Size(67, 62);
 			this->pictureBox59->TabIndex = 58;
 			this->pictureBox59->TabStop = false;
 			// 
 			// pictureBox60
 			// 
-			this->pictureBox60->Location = System::Drawing::Point(186, 405);
+			this->pictureBox60->Location = System::Drawing::Point(248, 498);
+			this->pictureBox60->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox60->Name = L"pictureBox60";
-			this->pictureBox60->Size = System::Drawing::Size(50, 50);
+			this->pictureBox60->Size = System::Drawing::Size(67, 62);
 			this->pictureBox60->TabIndex = 59;
 			this->pictureBox60->TabStop = false;
 			// 
 			// pictureBox61
 			// 
-			this->pictureBox61->Location = System::Drawing::Point(236, 405);
+			this->pictureBox61->Location = System::Drawing::Point(315, 498);
+			this->pictureBox61->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox61->Name = L"pictureBox61";
-			this->pictureBox61->Size = System::Drawing::Size(50, 50);
+			this->pictureBox61->Size = System::Drawing::Size(67, 62);
 			this->pictureBox61->TabIndex = 60;
 			this->pictureBox61->TabStop = false;
 			// 
 			// pictureBox62
 			// 
-			this->pictureBox62->Location = System::Drawing::Point(286, 405);
+			this->pictureBox62->Location = System::Drawing::Point(381, 498);
+			this->pictureBox62->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox62->Name = L"pictureBox62";
-			this->pictureBox62->Size = System::Drawing::Size(50, 50);
+			this->pictureBox62->Size = System::Drawing::Size(67, 62);
 			this->pictureBox62->TabIndex = 61;
 			this->pictureBox62->TabStop = false;
 			// 
 			// pictureBox63
 			// 
-			this->pictureBox63->Location = System::Drawing::Point(336, 405);
+			this->pictureBox63->Location = System::Drawing::Point(448, 498);
+			this->pictureBox63->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox63->Name = L"pictureBox63";
-			this->pictureBox63->Size = System::Drawing::Size(50, 50);
+			this->pictureBox63->Size = System::Drawing::Size(67, 62);
 			this->pictureBox63->TabIndex = 62;
 			this->pictureBox63->TabStop = false;
 			// 
 			// pictureBox64
 			// 
-			this->pictureBox64->Location = System::Drawing::Point(386, 405);
+			this->pictureBox64->Location = System::Drawing::Point(515, 498);
+			this->pictureBox64->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox64->Name = L"pictureBox64";
-			this->pictureBox64->Size = System::Drawing::Size(50, 50);
+			this->pictureBox64->Size = System::Drawing::Size(67, 62);
 			this->pictureBox64->TabIndex = 63;
 			this->pictureBox64->TabStop = false;
 			// 
 			// pictureBox65
 			// 
 			this->pictureBox65->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox65.BackgroundImage")));
-			this->pictureBox65->Location = System::Drawing::Point(12, 30);
+			this->pictureBox65->Location = System::Drawing::Point(16, 37);
+			this->pictureBox65->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->pictureBox65->Name = L"pictureBox65";
-			this->pictureBox65->Size = System::Drawing::Size(449, 449);
+			this->pictureBox65->Size = System::Drawing::Size(599, 553);
 			this->pictureBox65->TabIndex = 64;
 			this->pictureBox65->TabStop = false;
 			// 
@@ -793,9 +858,10 @@ namespace Projekt2 {
 			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Cambria", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button1->Location = System::Drawing::Point(506, 161);
+			this->button1->Location = System::Drawing::Point(675, 198);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(141, 39);
+			this->button1->Size = System::Drawing::Size(188, 48);
 			this->button1->TabIndex = 65;
 			this->button1->Text = L"Pionki";
 			this->button1->UseVisualStyleBackColor = false;
@@ -807,9 +873,10 @@ namespace Projekt2 {
 			this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Cambria", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->button3->Location = System::Drawing::Point(506, 117);
+			this->button3->Location = System::Drawing::Point(675, 144);
+			this->button3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(141, 38);
+			this->button3->Size = System::Drawing::Size(188, 47);
 			this->button3->TabIndex = 67;
 			this->button3->Text = L"Plansza";
 			this->button3->UseVisualStyleBackColor = false;
@@ -818,11 +885,12 @@ namespace Projekt2 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Harrington", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 26.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(485, 30);
+			this->label1->Location = System::Drawing::Point(647, 37);
+			this->label1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(162, 41);
+			this->label1->Size = System::Drawing::Size(203, 52);
 			this->label1->TabIndex = 68;
 			this->label1->Text = L"Warcaby";
 			// 
@@ -831,20 +899,22 @@ namespace Projekt2 {
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Cambria", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label2->Location = System::Drawing::Point(489, 97);
+			this->label2->Location = System::Drawing::Point(652, 119);
+			this->label2->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(107, 17);
+			this->label2->Size = System::Drawing::Size(72, 22);
 			this->label2->TabIndex = 69;
-			this->label2->Text = L"Stwórz plansze:";
+			this->label2->Text = L"Stwórz:";
 			// 
 			// textBox1
 			// 
 			this->textBox1->BackColor = System::Drawing::Color::AntiqueWhite;
-			this->textBox1->Location = System::Drawing::Point(491, 255);
+			this->textBox1->Location = System::Drawing::Point(655, 314);
+			this->textBox1->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->ReadOnly = true;
-			this->textBox1->Size = System::Drawing::Size(178, 200);
+			this->textBox1->Size = System::Drawing::Size(236, 245);
 			this->textBox1->TabIndex = 70;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
 			// 
@@ -853,19 +923,20 @@ namespace Projekt2 {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Cambria", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label3->Location = System::Drawing::Point(489, 235);
+			this->label3->Location = System::Drawing::Point(652, 289);
+			this->label3->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(114, 17);
+			this->label3->Size = System::Drawing::Size(145, 22);
 			this->label3->TabIndex = 71;
 			this->label3->Text = L"Historia ruchów:";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Tan;
-			this->ClientSize = System::Drawing::Size(692, 496);
+			this->ClientSize = System::Drawing::Size(923, 610);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->label2);
@@ -938,6 +1009,7 @@ namespace Projekt2 {
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->pictureBox65);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"MyForm";
 			this->Text = L"Warcaby";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
@@ -1137,6 +1209,22 @@ namespace Projekt2 {
 		macierz[7, 2] = 2;
 		macierz[7, 4] = 2;
 		macierz[7, 6] = 2;
+
+		//ustawienie z krolowymi
+
+		/*macierz[0, 1] = 3;
+		macierz[0, 7] = 3;
+		macierz[2, 1] = 1;
+		macierz[2, 3] = 1;
+		macierz[2, 7] = 1;
+
+		macierz[5, 0] = 4;
+		macierz[6, 1] = 2;
+		macierz[6, 3] = 4;
+		macierz[6, 5] = 2;
+		macierz[6, 7] = 2;
+		macierz[7, 6] = 4;*/
+
 		/////////////////////////////////
 
 
@@ -1157,6 +1245,16 @@ namespace Projekt2 {
 				if (macierz[i, j] == 2)
 				{
 					Image ^img = Image::FromFile("czarny2.png");
+					boxes[picture]->Image = img;
+				}
+				if (macierz[i, j] == 3)
+				{
+					Image ^img = Image::FromFile("bialy_krolowa.png");
+					boxes[picture]->Image = img;
+				}
+				if (macierz[i, j] == 4)
+				{
+					Image ^img = Image::FromFile("czarny_krolowa.png");
 					boxes[picture]->Image = img;
 				}
 				picture++;
