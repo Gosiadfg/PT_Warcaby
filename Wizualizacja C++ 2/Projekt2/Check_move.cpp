@@ -90,7 +90,7 @@ private:
 		if (deleted_color == WHITE) king_color = WHITE_KING;
 		else king_color == BLACK_KING;
 
-		if (board[old_p.i][old_p.j] == WHITE_KING || board[old_p.i][old_p.j] == BLACK_KING  )
+		if (board[old_p.i][old_p.j] == WHITE_KING || board[old_p.i][old_p.j] == BLACK_KING  ) //if counter is the king 
 		{
 			int how_far = 0;
 			if (old_p.i < new_p.i) how_far = new_p.i - old_p.i;
