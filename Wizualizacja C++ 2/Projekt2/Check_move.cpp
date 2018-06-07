@@ -25,10 +25,11 @@ private:
 	int board[8][8];
 	int move_counter = 0;
 	bool hit = false;
+	bool multihit = false;
 	bool isFirstMove = true;
 	position multiHitLastCounterPosition;
 
-	
+
 	bool check_set_up(int new_board[][8])
 	{
 		for (int i = 0; i < 8; i++)
@@ -60,7 +61,7 @@ private:
 		if (deleted_color == WHITE) king_color = WHITE_KING;
 		else king_color == BLACK_KING;
 
-		if (board[old_p.i][old_p.j] == WHITE_KING || board[old_p.i][old_p.j] == BLACK_KING  ) //if counter is the king 
+		if ((board[old_p.i][old_p.j] == WHITE_KING) || (board[old_p.i][old_p.j] == BLACK_KING)) //if counter is the king 
 		{
 			int how_far = 0;
 			if (old_p.i < new_p.i) how_far = new_p.i - old_p.i;
@@ -176,11 +177,11 @@ private:
 				}
 			}
 		}
-		if ((counter_p.i - 2 > 0) && (counter_p.j - 2 > 0))
+		if ((counter_p.i - 2 >= 0) && (counter_p.j - 2 >= 0))
 		{
-			if ((new_board[counter_p.i - 1][counter_p.j - 1] == enemy_color ) || (new_board[counter_p.i - 1][counter_p.j - 1] == enemy_king_color))
+			if ((new_board[counter_p.i - 1][counter_p.j - 1] == enemy_color) || (new_board[counter_p.i - 1][counter_p.j - 1] == enemy_king_color))
 			{
-				if (new_board[counter_p.i + -2][counter_p.j - 2] == EMPTY_SQUARE)
+				if (new_board[counter_p.i  -2][counter_p.j - 2] == EMPTY_SQUARE)
 				{
 					return true;
 				}
@@ -188,7 +189,7 @@ private:
 		}
 		if ((counter_p.i + 2 < 8) && (counter_p.j - 2 > 8))
 		{
-			if ((new_board[counter_p.i + 1][counter_p.j - 1] == enemy_color) || (new_board[counter_p.i + 1][counter_p.j - 1] == enemy_king_color ))
+			if ((new_board[counter_p.i + 1][counter_p.j - 1] == enemy_color) || (new_board[counter_p.i + 1][counter_p.j - 1] == enemy_king_color))
 			{
 				if (new_board[counter_p.i + 2][counter_p.j - 2] == EMPTY_SQUARE)
 				{
@@ -196,9 +197,9 @@ private:
 				}
 			}
 		}
-		if ((counter_p.i - 2 > 0) && (counter_p.j + 2 < 8))
+		if ((counter_p.i - 2 >= 0) && (counter_p.j + 2 < 8))
 		{
-			if ((new_board[counter_p.i - 1][counter_p.j + 1] == enemy_color ) || (new_board[counter_p.i - 1][counter_p.j + 1] == enemy_king_color))
+			if ((new_board[counter_p.i - 1][counter_p.j + 1] == enemy_color) || (new_board[counter_p.i - 1][counter_p.j + 1] == enemy_king_color))
 			{
 				if (new_board[counter_p.i - 2][counter_p.j + 2] == EMPTY_SQUARE)
 				{
@@ -218,24 +219,32 @@ private:
 		position deleted_p;
 		int change_counter = 0;
 
+		bool hit = false;
+		if (multihit)
+		{
+			hit = true;
+		}
+
 		for (int i = 0; i < 8; i++)
 		{
 			for (int j = 0; j < 8; j++)
 			{
-				if ((board[i][j] == WHITE) || (board[i][j] ==  WHITE_KING))	//if for found white counter
+				if ((board[i][j] == WHITE) || (board[i][j] == WHITE_KING))	//if for found white counter
 				{
 					position n;
 					n.i = i;
 					n.j = j;
-					bool isMultiHit;
-					if (hit == true) isMultiHit = true;
-					hit = have_to_hit(board, n, WHITE);
+					
+					if(have_to_hit(board, n, WHITE))
+					{
+						hit = true;
+					}
 					if (new_board[i][j] != board[i][j]) //old counter position
 					{
 						old_p.i = i;
 						old_p.j = j;
 						change_counter++;
-						if (isMultiHit) // if it is multi hit, you have to use the same counter 
+						if (multihit) // if it is multi hit, you have to use the same counter 
 						{
 							if (old_p.i != multiHitLastCounterPosition.i)
 							{
@@ -250,7 +259,7 @@ private:
 
 
 				}
-				if ((new_board[i][j] == WHITE) || (new_board[i][j] ==  WHITE_KING))
+				if ((new_board[i][j] == WHITE) || (new_board[i][j] == WHITE_KING))
 				{
 					if (board[i][j] != new_board[i][j]) // new counter position
 					{
@@ -310,7 +319,16 @@ private:
 				{
 					return false; // move must be forward
 				}
-				if (new_p.j - new_p.j != (1 || -1))
+				int direction;
+				if (new_p.j > old_p.j)
+				{
+					direction = new_p.j - old_p.j;
+				}
+				else
+				{
+					direction = old_p.j - new_p.j;
+				}
+				if (direction != 1)
 				{
 					return false; // move must be diagonal
 				}
@@ -342,6 +360,15 @@ private:
 			{
 				return false; // move with delete black counter
 			}
+			if (have_to_hit(new_board, new_p, WHITE))
+			{
+				multihit = true;
+				multiHitLastCounterPosition = new_p;
+			}
+			else
+			{
+				multihit = false;
+			}
 		}
 		for (int i = 0; i < 8; i++)
 		{
@@ -350,20 +377,15 @@ private:
 				board[i][j] = new_board[i][j];
 			}
 		}
-		if (have_to_hit(new_board, new_p, WHITE))
+	
+		
+		if (new_p.i == 8) board[new_p.i][new_p.j] = WHITE_KING;
+		if (!multihit)
 		{
-
-			hit = true;
-			multiHitLastCounterPosition = new_p;
-			return true;
-		}
-		else
-		{
-			if (new_p.i == 8) board[new_p.i][new_p.j] = WHITE_KING;
-			hit = false;
 			move_counter++;
-			return true;
 		}
+		return true;
+		
 
 	}
 	bool black_turn(int new_board[][8])
@@ -372,6 +394,12 @@ private:
 		position new_p;
 		position deleted_p;
 		int change_counter = 0;
+		bool hit = false;
+		
+		if (multihit == true)
+		{
+			hit = true;
+		}
 
 		for (int i = 0; i < 8; i++)
 		{
@@ -382,15 +410,17 @@ private:
 					position n;
 					n.i = i;
 					n.j = j;
-					bool isMultiHit;
-					if (hit == true) isMultiHit = true;
-					hit = have_to_hit(board, n, BLACK);
+					
+					if (have_to_hit(board, n, BLACK))
+					{
+						hit = true;
+					}
 					if (new_board[i][j] != board[i][j]) //old counter position
 					{
 						old_p.i = i;
 						old_p.j = j;
 						change_counter++;
-						if (isMultiHit) // if it is multi hit, you have to use the same counter 
+						if (multihit) // if it is multi hit, you have to use the same counter 
 						{
 							if (old_p.i != multiHitLastCounterPosition.i)
 							{
@@ -452,7 +482,16 @@ private:
 				{
 					return false; // move must be forward
 				}
-				if (new_p.j - new_p.j != (1 || -1))
+				int direction;
+				if (new_p.j > old_p.j)
+				{
+					direction = new_p.j - old_p.j;
+				}
+				else
+				{
+					direction = old_p.j - new_p.j;
+				}
+				if (direction != 1)
 				{
 					return false; // move must be diagonal
 				}
@@ -484,6 +523,15 @@ private:
 			{
 				return false; // move with delete white counter
 			}
+			if (have_to_hit(new_board, new_p, BLACK))
+			{
+				multihit = true;
+				multiHitLastCounterPosition = new_p;
+			}
+			else
+			{
+				multihit = false;
+			}
 		}
 		for (int i = 0; i < 8; i++)
 		{
@@ -492,55 +540,52 @@ private:
 				board[i][j] = new_board[i][j];
 			}
 		}
-		if (have_to_hit(new_board, new_p, BLACK))
+		
+
+		if (new_p.i == 0) board[new_p.i][new_p.j] = BLACK_KING;
+		hit = false;
+		if (!multihit)
 		{
-			hit = true;
-			multiHitLastCounterPosition = new_p;
-			return true;
-		}
-		else
-		{
-			if (new_p.i == 0) board[new_p.i][new_p.j] = BLACK_KING;
-			hit = false;
 			move_counter++;
-			return true;
 		}
+		return true;
+		
 	}
 
-	public:
+public:
 
 
-		Check_move()
+	Check_move()
+	{
+		//setting up the board
+		for (int i = 0; i < 8; i++)
 		{
-			//setting up the board
-			for (int i = 0; i < 8; i++)
+			for (int j = 0; j < 8; j++)
 			{
-				for (int j = 0; j < 8; j++)
+				if (i % 2 == 0)
 				{
-					if (i % 2 == 0)
-					{
-						if (j % 2 == 0) board[i][j] = 5;
-						else
-						{
-							if (i == 0 || i == 2) board[i][j] = 1;
-							if (i == 4) board[i][j] = 0;
-							if (i == 6) board[i][j] = 2;
-						}
-					}
+					if (j % 2 == 0) board[i][j] = 5;
 					else
 					{
-						if (j % 2 != 0) board[i][j] = 5;
-						else
-						{
-							if (i == 1) board[i][j] = 1;
-							if (i == 3) board[i][j] = 0;
-							if (i == 5 || i == 7) board[i][j] = 2;
-						}
+						if (i == 0 || i == 2) board[i][j] = 1;
+						if (i == 4) board[i][j] = 0;
+						if (i == 6) board[i][j] = 2;
 					}
-
 				}
+				else
+				{
+					if (j % 2 != 0) board[i][j] = 5;
+					else
+					{
+						if (i == 1) board[i][j] = 1;
+						if (i == 3) board[i][j] = 0;
+						if (i == 5 || i == 7) board[i][j] = 2;
+					}
+				}
+
 			}
 		}
+	}
 
 	bool check(int new_board[][8])
 	{
@@ -556,5 +601,4 @@ private:
 		}
 	}
 };
-
 
